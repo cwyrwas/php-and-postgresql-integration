@@ -1,0 +1,28 @@
+{
+    "name": "jexcel/jexcel-database",
+    "type": "library",
+    "description": "Jexcel two-way database integration",
+    "keywords": [
+        "jexcel",
+        "jexcel cloud",
+        "spreadsheets"
+    ],
+    "homepage": "https://jexcel.net/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Hodel",
+            "email": "paul@jexcel.net",
+            "homepage": "https://github.com/paulhodel"
+        }
+    ],
+    "require": {
+        "bossanova/bossanova" : "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "jexcel\\": "src/"
+        }
+    }
+}
+
