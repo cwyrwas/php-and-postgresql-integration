@@ -1,2 +1,2 @@
-# jexcel-database
-Jexcel Spreadsheet to Database
+# jspreadsheet-database
+Jspreadsheet to Database
