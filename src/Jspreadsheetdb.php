@@ -1,7 +1,9 @@
 <?php
-namespace jexcel;
+namespace jspreadsheet;
 
-class Jexceldb
+use bossanova\Database\Database;
+
+class Jspreadsheetdb
 {
     /** Tablename **/
     public $table = null;
@@ -128,7 +130,7 @@ class Jexceldb
             }
 
             // Create the Jexcel configuration
-            return "<div id='{$options['id']}'></div><script>jexcel(document.getElementById('{$options['id']}'), {$config});</script>";
+            return "<div id='{$options['id']}'></div><script>jspreadsheet(document.getElementById('{$options['id']}'), {$config});</script>";
         } else {
             // Table not found
             return 'Not found';

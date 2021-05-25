@@ -1,19 +1,18 @@
 {
-    "name": "jexcel/jexcel-database",
+    "name": "jspreadsheet/db",
     "type": "library",
-    "description": "Jexcel two-way database integration",
+    "description": "Jspreadsheet two-way database integration with postgresql",
     "keywords": [
-        "jexcel",
-        "jexcel cloud",
+        "Jspreadsheet",
+        "Jspreadsheet cloud",
         "spreadsheets"
     ],
-    "homepage": "https://jexcel.net/",
+    "homepage": "https://jspreadsheet.com/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Paul Hodel",
-            "email": "paul@jexcel.net",
-            "homepage": "https://github.com/paulhodel"
+            "name": "Jspreadsheet",
+            "email": "contact@jspreadsheet.com"
         }
     ],
     "require": {
